@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./images/espacio.jpeg");
+}
+.mainSection {
+    width: 100vw;
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(2,350px);
+    grid-template-rows: 40px 40px 30px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.mainSection div {
+    width: 700px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 400px;
+    justify-content: center;
+    align-content: center;
+}
+.mainSection button {
+    width: 50%;
+    height: 35px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 50px; 
+    border: 1.5px solid black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lawngreen;
+}
+.mainSection button:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    cursor: pointer;
+}
+.mainSection label {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainSection input {
+    width: 80%;
+    height: 80%;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+.answerSec{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(3, 3, 54);
+}
